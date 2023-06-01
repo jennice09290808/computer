@@ -1,0 +1,84 @@
+body {
+  background-color: beige;
+  background-image: url("../img/黃.jfif");
+  background-attachment: fixed;
+  background-size: 50% 100%;
+}
+h1 {
+  border: 20px solid rgb(182, 159, 180);
+  color: rgb(205, 172, 206);
+  font-size: 5vw;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.p1 {
+  font-size: 5vw;
+  color: rgb(155, 183, 214);
+}
+.p2 {
+  font-size: 200%;
+  color: rgb(201, 159, 187);
+}
+.note {
+  font-size: 150%;
+  color: rgb(117, 133, 187);
+}
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.section {
+  display: flex;
+}
+
+/* Create two columns/boxes that floats next to each other */
+.section > div {
+  background: #ccc;
+}
+
+.side {
+  display: flex;
+  flex: 30%;
+  flex-direction: column;
+}
+.side > .side_img {
+  font-size: 80%;
+}
+.side > .side_statments {
+  font-size: 20%;
+  background-color: cadetblue;
+  padding: 0%;
+}
+.article {
+  flex: 70%;
+  font-size: 1vw;
+  background-color: #f1f1f1;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(89, 143, 125);
+  font-size: 2vw;
+}
+.navbar a {
+  color: #ccc;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #ccc;
+}
